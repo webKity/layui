@@ -1,0 +1,26 @@
+@import "./color.scss";
+
+@mixin input-style () {
+  height: 38px;
+  line-height: 38px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $borderColor;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@mixin edge {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 6px;
+  border-style: dashed;
+  border-color: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  border-width: 6px;
+  border-top-color: $grayColor;
+  border-top-style: solid;
+}

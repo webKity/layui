@@ -1,0 +1,39 @@
+$colorDisparity: 10%;
+$whiteColor: #fff;
+
+$blackColor: #343434;
+$lightBlackColor: lighten($blackColor, $colorDisparity);
+
+$grayColor: #666;
+$darkGrayColor: #656565;
+$lightGrayColor: #f2f2f2;
+
+$primaryColor: #009688;
+$darkPrimaryColor: darken($primaryColor, $colorDisparity);
+$lightPrimaryColor: lighten($primaryColor, $colorDisparity);
+
+$yellowColor: #ffb800;
+$darkYellowColor: darken($yellowColor, $colorDisparity);
+$lightYellowColor: lighten($yellowColor, $colorDisparity);
+
+$redColor: #ff5722;
+$darkRedColor: darken($redColor, $colorDisparity);
+$lightRedColor: lighten($redColor, $colorDisparity);
+
+$greenColor: #5fb878;
+$darkGreenColor: darken($greenColor, $colorDisparity);
+$lightGreenColor: lighten($greenColor, $colorDisparity);
+
+$blueColor: #1e9fff;
+$darkBlueColor: darken($greenColor, $colorDisparity);
+$lightBlueColor: lighten($greenColor, $colorDisparity);
+
+$borderColor: #e6e6e6;
+$lightBorderColor: #e2e6ee;
+
+$disableColor: #d2d2d2;
+
+$menu-bg-color: #434343;
+$menu-opend-bg-color: $blackColor;
+$menu-border-color: #535353;
+$menu-text-color: #c7c7c7;
