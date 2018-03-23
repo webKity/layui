@@ -1,0 +1,36 @@
+@import "./color.scss";
+@import "./fontSize.scss";
+@import "./mixin.scss";
+
+.mouse-effect-up{
+  will-change: transform;
+  transition: all .6s;
+  &:hover{
+    background-color:$whiteColor;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.1);
+    transform: translateY(-4px);
+  }
+}
+.mouse-effect-bg{
+  .bg{
+    @include one-screen;
+    @include opacity(0.7);
+    background-color: $primaryColor;
+    width: 0;
+    transition: width .4s cubic-bezier(.22,.61,.36,1);
+  }
+  &:hover{
+    .bg{
+      width:100%;
+    }
+  }
+}
+.mouse-effect-scale{
+  will-change: transform;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  &:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+}
